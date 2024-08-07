@@ -137,7 +137,7 @@ Traveling @ 55 MPH: ${gallons55.toFixed(2)} gallons @ $${cost55.toFixed(2)}, ${h
 Traveling @ 60 MPH: ${gallons60.toFixed(2)} gallons @ $${cost60.toFixed(2)}, ${hours60.toFixed(2)} hours
 Traveling @ 75 MPH: ${gallons75.toFixed(2)} gallons @ $${cost75.toFixed(2)}, ${hours75} hours
 
-Priority Cost: Traveling at 60 MPH will use $160 dollars of gas and will get you to the destination in 25 hours.
-Priority Time: Traveling at 55 MPG will use $150 dollars of gas and will get you to the destination in 27.3 hours.
+Priority Time: Traveling at 60 MPH will use $160 dollars of gas and will get you to the destination in 25 hours.
+Priority Cost: Traveling at 55 MPG will use $150 dollars of gas and will get you to the destination in 27.3 hours.
 I'd choose time over cost.
 `)
