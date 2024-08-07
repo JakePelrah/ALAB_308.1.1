@@ -57,7 +57,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 // Use modulo 5 to check if number are divisible by 5,
 // if number is divisible by 5 modulo should return zero,
 // sum numbers and compare to zero
-const isDivisibleBy5 = n1 % 5 + n2 % 5 + n3 % 5 + n4 % 5 === 0
+const allDivisibleBy5 = n1 % 5 + n2 % 5 + n3 % 5 + n4 % 5 === 0
 
 // Check five: check if the first number is larger than the last.
 const firstGreaterLast = n1 > n4
@@ -70,10 +70,10 @@ const result = ((n2 - n1) * n3) % n4
 
 // Check six: Change the way that isOver25 calculates so that we do not 
 //need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
-const isLessThanEqual25 = n1 <= 25 || n2 <= 25 || n3 <= 25 || n4 <= 25
+const allLessThanEqual25 = n1 <= 25 && n2 <= 25 && n3 <= 25 && n4 <= 25
 
 // check the result using the non negated function
-const isValidTwo = isSum50 && isTwoOdd && isLessThanEqual25 && isUnique;
+const isValidTwo = isSum50 && isTwoOdd && allLessThanEqual25 && isUnique;
 
 // Finally, log the results.
 console.log(isValidTwo)
